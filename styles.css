@@ -1,0 +1,615 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #ffffff;
+    color: rgb(12, 12, 12);
+    font-family: lato, sans-serif;
+}
+
+nav {
+    display: flex;
+    position: sticky;
+    background-color: hwb(0 95% 10%);
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+    gap: 400px;
+}
+
+.righ-side {
+    margin: 23px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    padding: 0px 0px 0px 87px;
+
+}
+
+nav ul li {
+    margin: 0 20px;
+
+}
+
+.left-side {
+    font-size: 1.7rem;
+    margin-left: -280px;
+}
+
+.first-section {
+    display: flex;
+    justify-content: space-around;
+    margin: 150px 0px 150px 50px;
+    gap: 40px;
+
+}
+
+.first-section div {
+    width: 50%;
+}
+
+.image {
+    width: 500px;
+    height: 300px;
+    margin-right: 100px;
+
+}
+
+.first-section .left {
+    margin: 35px 32px 0px 0px;
+    height: 35%;
+    line-height: 20px;
+
+}
+
+.first-section h1 {
+    color: rgb(12, 12, 12);
+    font-size: 2rem;
+    width: 70%;
+    line-height: 35px;
+
+}
+
+p {
+    color: rgb(159, 159, 159);
+    font-size: 1.1rem;
+}
+
+.logo img {
+    height: 60px;
+    width: 57px;
+    margin-right: -123px;
+    border-radius: 20px;
+}
+.logo-footer img {
+    height: 50px;
+    width: 47px;
+    margin-right: -123px;
+    border-radius: 10px;
+    margin-left: 20px;
+}
+
+.Services {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 80px;
+
+}
+
+
+.consulting {
+    width: 223px;
+    height: 309px;
+    background-color: hwb(0 95% 10%);
+    align-items: center;
+    padding: 20px 20px 20px 20px;
+    border-radius: 10px;
+    box-shadow: #393356;
+
+}
+
+.training {
+    width: 250px;
+    height: 380px;
+    background-color: hwb(0 95% 10%);
+    align-items: center;
+    padding: 20px 20px 20px 20px;
+    border-radius: 10px;
+    box-shadow: #393356;
+}
+
+.project-dev {
+    width: 250px;
+    height: 380px;
+    background-color: hwb(0 95% 10%);
+    align-items: center;
+    padding: 20px 20px 20px 20px;
+    border-radius: 10px;
+    box-shadow: #393356;
+}
+
+.web-des {
+    width: 250px;
+    height: 300px;
+    background-color: hwb(0 95% 10%);
+    align-items: center;
+    padding: 20px 20px 20px 20px;
+    border-radius: 10px;
+    box-shadow: #393356;
+}
+
+.thirdSection {
+    margin-top: 100px;
+}
+
+h6 {
+    color: #afa823;
+    margin-bottom: 10px;
+}
+
+h4 {
+    margin-bottom: 10px;
+}
+
+.secondSection h2 {
+    margin-left: 50px;
+
+}
+
+hr {
+    width: 80px;
+    margin-left: 50px;
+    margin-top: 5px;
+    height: 3px;
+    color: white;
+    background-color: #ead90a;
+    border-radius: 2px;
+}
+
+.btn-more {
+    margin-left: 0px;
+    margin-top: 25px;
+    font-size: 1.1rem;
+    color: rgb(255, 255, 255);
+    padding: 10px 10px 10px 10px;
+    border-radius: 10px;
+    background-color: #7f71cf;
+
+}
+
+.btn {
+    margin-left: 45%;
+    margin-top: 80px;
+    font-size: 1rem;
+    color: white;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    border-radius: 10px;
+    background-color: #7f71cf;
+}
+
+.btn-teammem {
+    margin-left: 43.8%;
+    margin-top: 55px;
+    font-size: 1rem;
+    color: white;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    border-radius: 10px;
+    background-color: #7f71cf;
+}
+
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%
+}
+
+.thirdSection {
+    margin-left: 50px;
+    margin-top: 100px;
+
+
+}
+
+.thirdSection hr {
+    width: 60px;
+    margin-left: 0px;
+    margin-top: 5px;
+    height: 3px;
+    color: white;
+    background-color: #857a03;
+    border-radius: 2px;
+
+}
+
+.team-moto p {
+    width: 60%;
+    margin-left: 150px;
+    margin-top: 20px;
+
+}
+
+.team-member {
+    display: flex;
+    margin-top: 100px;
+    margin-left: 30px;
+    gap: 150px;
+
+}
+
+
+
+.team-mem-des {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    margin-left: 100px;
+}
+
+.fa-linkedin {
+    color: rgba(202, 195, 195, 0.575);
+
+}
+
+.fa-instagram {
+    color: rgba(202, 195, 195, 0.575);
+}
+
+.fa-facebook {
+    color: rgba(202, 195, 195, 0.575);
+}
+
+.fa-twitter {
+    color: rgba(202, 195, 195, 0.575);
+}
+
+.fa {
+    padding: 5px;
+    font-size: 20px;
+    width: 10px;
+    text-align: center;
+    text-decoration: none;
+    margin: 1px 2px;
+}
+
+.desc {
+    padding-top: 45px;
+
+}
+
+.desc1 {
+    padding-top: 45px;
+
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    background-color: hwb(0 95% 10%);
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+
+.logoside {
+    display: flex;
+    gap: 70px;
+}
+
+
+.logoside-footer {
+    display: flex;
+    gap: 70px;
+}
+
+.textlogo {
+    padding-top: 15px;
+    font-size: 1.9rem;
+    font-weight: bolder;
+}
+
+
+.textlogo-footer {
+    padding-top: 15px;
+    font-size: 1rem;
+    font-weight: bolder;
+}
+
+.socicons {
+    display: flex;
+    list-style: none;
+    margin-right: 50px;
+}
+
+#home {
+    text-decoration: none;
+    color: rgb(12, 12, 12);
+}
+
+#service {
+    text-decoration: none;
+    color: rgb(12, 12, 12);
+}
+#About-us {
+    text-decoration: none;
+    color: rgb(12, 12, 12);
+}
+
+#home :hover {
+     color: #7f71cf;
+     cursor: pointer;
+    
+    
+
+}
+
+#service :hover {
+     color: #7f71cf;
+     
+
+}
+#About-us :hover {
+    color: #7f71cf;
+    
+
+}
+
+
+.main-page {
+    margin-left: 30px;
+
+}
+
+.home-link {
+    text-decoration: none;
+    color: black;
+}
+
+
+
+@media screen and (max-width :1000px) {
+
+
+    html, body{
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+    }
+
+    nav {
+        display: block;
+        position: sticky;
+        background-color: hwb(0 95% 10%);
+        height: 140px;
+        width: 100%;
+        padding-top: 20px;
+    }
+
+    .logoside {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+
+
+    }
+
+    .first-section {
+        display: block;
+        width: 100%;
+        margin-top: 200px;
+        margin-bottom: 50px;
+        margin-left: 20px;
+
+    }
+
+    .first-section .left {
+        margin: 10px 10px 10px 10px;
+        height: 50%;
+        width: 80%;
+        
+
+    }
+
+    .Services {
+        display: block;
+        margin-top: 80px;
+        width: 100;
+        margin-left: 20px;
+        margin-right: 30px;
+
+    }
+
+    .consulting {
+        margin-top: 25px;
+        margin-left: 0px;
+        width: 300px;
+        background-color: hwb(0 95% 10%);
+        
+
+    }
+
+    .consulting img{
+        width: 300px;
+    }
+
+    .training {
+        margin-top: 25px;
+        margin-left: 0px;
+        width: 300px;
+        height: 340px;
+    }
+
+    .training img{
+        width: 300px ;
+    }
+
+    .project-dev {
+        margin-top: 25px;
+        margin-left: 0px;
+        width: 300px;
+        height: 360px;
+
+    }
+
+    .project-dev img{
+        width: 300px;
+        height: 200px;
+    }
+
+    .web-des {
+        margin-top: 25px;
+        margin-left: 0px;
+        width: 300px;
+        height: 290px;
+    }
+    .web-des img {
+        width: 300px;
+    }
+
+    .team-member {
+        display: block;
+        margin-top: 100px;
+
+        margin-right: 350px;
+    
+    }
+
+    .image {
+        width: 330px;
+        height: 250px;
+        margin-right: 50px;
+        margin-left: 0px;
+        margin-top: 50px;
+    
+    }
+    .first-section h1 {
+         
+        color: rgb(12, 12, 12);
+        font-size: 1.7rem;
+        width: 120%;
+        line-height: 30px;
+        margin-right: 30px;
+    
+    }
+    .team-moto p {
+        width: 80%;
+        margin-left: 0px;
+        margin-top: 50px;
+    
+    }
+    nav ul {
+        display: flex;
+        list-style: none;
+        gap: 5px;
+       margin-top: 25px;
+       margin-left: 30px;
+       padding-left: 0px;
+        
+    
+    }
+
+    .footer {
+        display: flex;
+        gap: 20px;
+        height: 140px;
+        width: 102%;
+    
+        
+    }
+
+    .btn {
+        margin-left: 30%;
+        margin-top: 80px;
+        font-size: 1rem;
+        color: white;
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 9px;
+        padding-bottom: 9px;
+        border-radius: 10px;
+        background-color: #7f71cf;
+    }
+
+    .btn-teammem {
+        margin-left: 22%;
+        margin-top: 55px;
+        font-size: 1rem;
+        color: white;
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 9px;
+        padding-bottom: 9px;
+        border-radius: 10px;
+        background-color: #7f71cf;
+    }
+
+    nav ul li {
+        margin: 0 5px;
+    
+    }
+    .left p{
+        text-align: center;
+    }
+
+    .btn-more {
+        margin-left: 90px;
+        margin-top: 25px;
+        font-size: 1.1rem;
+        color: rgb(255, 255, 255);
+        padding: 10px 10px 10px 10px;
+        border-radius: 10px;
+        background-color: #7f71cf;
+    
+    }
+    h3{
+        margin-right: 20px;
+    }
+    .secondSection h2{
+        margin-left: 20px;
+    }
+    .nextline{
+        width: 120%;
+        text-align: center;
+    }
+
+    .desc p{
+        margin-top: 0px;
+        font-size: 12px;
+        padding-top: 0px;
+    }
+    .desc{
+        padding-top: 0px;
+    }
+    .team-mem-des img{
+        width: 150px;
+        margin-left: 0;
+        margin-right: 0px;
+
+    }
+    .desc1 P{
+        font-size: 12px;
+    }
+    .desc1{
+        padding-top: 0px;
+    }
+
+    .textlogo-footer{
+        padding-top: 0px;
+    }
+
+    
+    
+}

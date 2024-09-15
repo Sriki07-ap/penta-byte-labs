@@ -1,0 +1,102 @@
+ .team-member {
+     display: flex;
+     flex-wrap: wrap;
+     gap: 10px;
+     justify-content: center;
+     margin-top: 100px;
+ }
+
+
+ .team-mem-des1 {
+       display: flex;
+       gap: 10px;
+
+     width: 460px;
+     height: 90px;
+     padding-left: 20px;
+     background-color: hwb(0 95% 10%);
+   
+     border-style: groove;
+     box-shadow: 30px 30px 30px 30px hwb(0 95% 10%) inset;
+     border-radius: 5px;
+     align-items: center;
+
+ }
+
+ .team-mem-des2 {
+    display: flex;
+    gap: 10px;
+    width: 460px;
+    height: 90px;
+    padding-left: 20px;
+    background-color: hwb(0 95% 10%);
+    
+    border-style: groove;
+    box-shadow: 30px 30px 30px 30px hwb(0 95% 10%) inset;
+    border-radius: 5px;
+    align-items: center;
+
+ }
+
+ .team-mem-des3 {
+     display: flex;
+     gap: 10px;
+     width: 460px;
+     height: 90px;
+     padding-left: 20px;
+     background-color: hwb(0 95% 10%);
+  
+     border-style: groove;
+     box-shadow: 30px 30px 30px 30px hwb(0 95% 10%) inset;
+     border-radius: 5px;
+     align-items: center;
+
+ }
+
+
+ .team-mem-des4 {
+     display: flex;
+     gap: 10px;
+     width: 460px;
+     height: 90px;
+     padding-left: 20px;
+     background-color: hwb(0 95% 10%);
+     align-items: center;
+ 
+     border-style: groove;
+     box-shadow: 30px 30px 30px 30px hwb(0 95% 10%) inset;
+     border-radius: 5px;
+
+ }
+
+
+ .teammem-next-row {
+     display: flex;
+     justify-content: center;
+     margin-top: 10px;
+      
+ }
+
+ .team-member img {
+     height: 80px;
+     width: 80px;
+     border-radius: 100%;
+
+ }
+
+ .teammem-next-row img {
+     height: 80px;
+     width: 80px;
+     border-radius: 100%;
+
+ }
+
+ h1 {
+     text-align: center;
+     margin-top: 200px;
+     margin-bottom: 30px;
+ }
+
+ .team-moto {
+     text-align: center;
+ }
